@@ -1,0 +1,9 @@
+body { font-family: 'Inter', sans-serif; background: #eef2f3; padding: 20px; }
+.container { max-width: 600px; margin: auto; background: white; padding: 20px; border-radius: 10px; box-shadow: 0 5px 15px rgba(0,0,0,0.1); }
+input, textarea { width: 100%; margin-bottom: 10px; padding: 10px; border: 1px solid #ddd; border-radius: 5px; box-sizing: border-box; }
+textarea { height: 100px; font-family: monospace; }
+button { width: 100%; background: #3498db; color: white; border: none; padding: 12px; border-radius: 5px; cursor: pointer; font-weight: bold; }
+button:hover { background: #2980b9; }
+.message-card { background: #f9f9f9; border-left: 5px solid #3498db; padding: 10px; margin-top: 15px; border-radius: 3px; }
+.message-card strong { color: #2c3e50; display: block; margin-bottom: 5px; }
+pre { background: #272822; color: #f8f8f2; padding: 10px; border-radius: 5px; overflow-x: auto; font-size: 13px; }

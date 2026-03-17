@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Repositório da Organização</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+    <div class="container">
+        <h1>Mural da Organização</h1>
+        
+        <div class="input-group">
+            <input type="text" id="userName" placeholder="Seu nome">
+            <textarea id="messageInput" placeholder="Digite sua mensagem ou código aqui..."></textarea>
+            <button onclick="saveData()">Postar no Mural</button>
+        </div>
+
+        <hr>
+
+        <div id="displayArea">
+            <h3>Mensagens Recentes:</h3>
+            <div id="messagesList"></div>
+        </div>
+    </div>
+
+    <script src="https://www.gstatic.com/firebasejs/9.17.1/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.17.1/firebase-database-compat.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
